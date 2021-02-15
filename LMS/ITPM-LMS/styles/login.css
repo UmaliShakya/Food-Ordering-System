@@ -1,0 +1,163 @@
+.bg{
+
+    background-color: #aaaaaa;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.login_form{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: auto;
+
+    display: inline-block;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+}
+
+.err{
+    margin: 0;
+    text-align: center;
+    background-color: red;
+    font-weight: bold;
+}
+
+.login_box{
+    position: absolute;
+    left: 50%;
+    margin-left: -40%;
+    display: inline-block;
+    width: 80%;
+    padding: 3% 10%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h2{
+    margin: 0;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 15%;
+}
+
+.login_box p{
+    margin: 0;
+
+    font-weight: bold;
+    color: #000000;
+}
+
+.login_box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login_box input[type="text"],
+.login_box input[type="password"]{
+    border: 2px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.login_box input[type="text"]:hover{
+    -webkit-box-shadow: 0 0 10px 3px rgb(255, 255, 255);
+            box-shadow: 0 0 10px 3px rgb(255, 255, 255);
+    -webkit-transition: all 100ms ease-in;
+    -o-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+.login_box input[type="password"]:hover{
+    -webkit-box-shadow: 0 0 10px 3px rgb(255, 255, 255);
+            box-shadow: 0 0 10px 3px rgb(255, 255, 255);
+    -webkit-transition: all 100ms ease-in;
+    -o-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+
+::-webkit-input-placeholder{
+    color: #000000;
+    font-family: "Verdana";
+    font-weight: bold;
+    opacity: 1;
+}
+
+:-ms-input-placeholder{
+    color: #000000;
+    font-family: "Verdana";
+    font-weight: bold;
+    opacity: 1;
+}
+
+
+::placeholder{
+    color: #000000;
+    opacity: 1;
+    font-family: "Verdana";
+    font-weight: bold;
+}
+
+
+.reg{
+    background-color: #ffb606;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 2px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.reg:hover{
+    background-color: transparent;
+    color: #000000;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+
+}
+
+.log{
+    outline: none;
+    height: 40px;
+    color: #000000;
+    border: 2px solid #000000;
+    background: transparent;
+    padding: 2px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.log:hover{
+    background: #ffb606;
+    color: #000000;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.login_box a{
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login_box a:hover{
+    color: #333333;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+

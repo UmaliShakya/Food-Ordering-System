@@ -1,0 +1,21 @@
+{
+  "flowers": [
+    {
+      "flower_code": "R001",
+      "price":"1200.00"
+    },
+    {
+      "flower_code": "R002",
+      "price":"1300.00"
+    },
+    {
+      "flower_code": "R003",
+      "price":"1600.00"
+    },
+    {
+      "flower_code": "R004",
+      "price":"1400.00"
+    }
+
+  ]
+}
